@@ -1,0 +1,17 @@
+pyproject.toml
+src/QuickBar/__init__.py
+src/QuickBar/__main__.py
+src/QuickBar/app.py
+src/QuickBar/common.py
+src/QuickBar/config.py
+src/QuickBar/hotkey.py
+src/QuickBar/icon.py
+src/QuickBar/manager.py
+src/QuickBar/sidebar.py
+src/QuickBar/storage.py
+src/QuickBar.egg-info/PKG-INFO
+src/QuickBar.egg-info/SOURCES.txt
+src/QuickBar.egg-info/dependency_links.txt
+src/QuickBar.egg-info/entry_points.txt
+src/QuickBar.egg-info/requires.txt
+src/QuickBar.egg-info/top_level.txt
