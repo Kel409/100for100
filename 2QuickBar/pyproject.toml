@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "QuickBar"
+version = "1.0.0"
+description = "A tray-based image library with a global hotkey and clipboard copy."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "PySide6>=6.6",
+    "pynput>=1.7",
+]
+
+[project.gui-scripts]
+QuickBar = "QuickBar.app:run"
+
+[tool.setuptools.packages.find]
+where = ["src"]

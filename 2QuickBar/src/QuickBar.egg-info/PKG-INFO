@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: QuickBar
+Version: 1.0.0
+Summary: A tray-based image library with a global hotkey and clipboard copy.
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: PySide6>=6.6
+Requires-Dist: pynput>=1.7
